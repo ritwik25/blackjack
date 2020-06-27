@@ -1,0 +1,53 @@
+.container-3, .container-4, .container-5{
+  border: 1px solid black;
+  width: 75%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.flex-box-rps, .flex-box-pick-color, .flex-blackjack-row-1, .flex-blackjack-row-2, .flex-blackjack-row-3 {
+    display: flex;
+    border: 1px solid black;
+    padding: 10px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.flex-blackjack-row-1 img{
+  padding: 10px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 15%;
+}
+.flex-blackjack-row-1, .flex-blackjack-row-2 {
+  background: url('https://image.freepik.com/free-photo/green-poker-table-background_87414-3611.jpg') center;
+}
+
+.flex-blackjack-row-1 div{
+  border: solid black;
+  padding: 10px;
+  flex: 1;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: space-around;
+  height: 350px;
+}
+
+.flex-blackjack-row-2 button{
+  border: solid black;
+}
+
+table, th{
+  padding: 10px;
+  border: solid black;
+}
+
+table, td{
+  padding: 10px;
+  border: solid black;
+  text-align: center;
+}
+.flex-box-rps img:hover{
+    box-shadow: 0px 10px 50px rgba(37, 50, 233, 1);
+}
